@@ -6,3 +6,9 @@ class SpatialObject:
         Subclasses must implement this behavior.
         """
         raise NotImplementedError
+
+class Parcel (SpatialObject):
+
+class Building (SpatialObject):
+
+class Road (SpatialObject):
